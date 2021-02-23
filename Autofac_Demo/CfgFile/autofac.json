@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "type": "Autofac_Demo.Service.ServiceA, Autofac_Demo.Service",
+      "services": [
+        {
+          "type": "Autofac_Demo.Interface.IServiceA,Autofac_Demo.Interface"
+        }
+      ],
+      "instanceScope": "single-instance", //生命周期
+      "injectProperties": true //属性注入
+    },
+    {
+      "type": "Autofac_Demo.Service.ServiceB, Autofac_Demo.Service",
+      "services": [
+        {
+          "type": "Autofac_Demo.Interface.IServiceB,Autofac_Demo.Interface"
+        }
+      ],
+      "instanceScope": "single-instance", //生命周期
+      "injectProperties": true //属性注入
+    },
+    {
+      "type": "Autofac_Demo.Service.ServiceC, Autofac_Demo.Service",
+      "services": [
+        {
+          "type": "Autofac_Demo.Interface.IServiceC,Autofac_Demo.Interface"
+        }
+      ],
+      "instanceScope": "single-instance", //生命周期
+      "injectProperties": true //属性注入
+    },
+    {
+      "type": "Autofac_Demo.Service.ServiceD, Autofac_Demo.Service",
+      "services": [
+        {
+          "type": "Autofac_Demo.Interface.IServiceD,Autofac_Demo.Interface"
+        }
+      ],
+      "instanceScope": "single-instance", //生命周期
+      "injectProperties": true //属性注入
+    },
+    {
+      "type": "Autofac_Demo.Service.ServiceE, Autofac_Demo.Service",
+      "services": [
+        {
+          "type": "Autofac_Demo.Interface.IServiceE,Autofac_Demo.Interface"
+        }
+      ],
+      "instanceScope": "single-instance", //生命周期
+      "injectProperties": true //属性注入
+    }
+  ]
+}
